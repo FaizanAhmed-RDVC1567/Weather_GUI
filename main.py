@@ -1,5 +1,5 @@
-def main():
-    print("Some test")
+from ui.weather_ui import WeatherApp
 
-
-main()
+if __name__ == "__main__":
+    app = WeatherApp()
+    app.run()
